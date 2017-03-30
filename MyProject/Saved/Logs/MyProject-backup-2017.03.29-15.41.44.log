@@ -1,0 +1,1095 @@
+﻿[2017.03.28-21.48.29:542][  0]Log file open, 03/28/17 14:48:29
+[2017.03.28-21.48.29:542][  0]LogInit:Display: Running engine for game: MyProject
+[2017.03.28-21.48.29:542][  0]LogPlatformFile: Not using cached read wrapper
+[2017.03.28-21.48.29:542][  0]LogInit:Display: RandInit(2132525399) SRandInit(2132525400).
+[2017.03.28-21.48.29:542][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2017.03.28-21.48.29:542][  0]LogStats: Stats thread started at 0.073506
+[2017.03.28-21.48.29:542][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2017.03.28-21.48.29:542][  0]LogInit: API Version: 2758231
+[2017.03.28-21.48.29:542][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2017.03.28-21.48.29:542][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2017.03.28-21.48.29:542][  0]LogInit: Build Configuration: Development
+[2017.03.28-21.48.29:542][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2017.03.28-21.48.29:542][  0]LogInit: Command line: -EpicPortal 
+[2017.03.28-21.48.29:542][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2017.03.28-21.48.29:542][  0]LogInit: Rocket: 1
+[2017.03.28-21.48.29:548][  0]LogInit: Using libcurl 7.41.0
+[2017.03.28-21.48.29:548][  0]LogInit:  - built for x86_64-pc-win32
+[2017.03.28-21.48.29:548][  0]LogInit:  - supports SSL with WinSSL
+[2017.03.28-21.48.29:548][  0]LogInit:  - other features:
+[2017.03.28-21.48.29:548][  0]LogInit:      CURL_VERSION_SSL
+[2017.03.28-21.48.29:548][  0]LogInit:      CURL_VERSION_IPV6
+[2017.03.28-21.48.29:548][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2017.03.28-21.48.29:548][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2017.03.28-21.48.29:548][  0]LogInit:      CURL_VERSION_IDN
+[2017.03.28-21.48.29:548][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2017.03.28-21.48.29:548][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2017.03.28-21.48.29:548][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2017.03.28-21.48.29:548][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2017.03.28-21.48.29:548][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2017.03.28-21.48.29:553][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2017.03.28-21.48.29:560][  0]LogInit: Object subsystem initialized
+[2017.03.28-21.48.29:577][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.28-21.48.29:577][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.28-21.48.29:585][  0]LogInit: Computer: KAZIOSDESTROYER
+[2017.03.28-21.48.29:585][  0]LogInit: User: Kazio
+[2017.03.28-21.48.29:585][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.03.28-21.48.29:585][  0]LogInit: High frequency timer resolution =3.312785 MHz
+[2017.03.28-21.48.29:585][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.03.28-21.48.29:585][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.28-21.48.29:585][  0]LogMemory: Process Physical Memory: 56.52 MB used, 56.52 MB peak
+[2017.03.28-21.48.29:585][  0]LogMemory: Process Virtual Memory: 55.07 MB used, 55.07 MB peak
+[2017.03.28-21.48.29:585][  0]LogMemory: Physical Memory: 3907.10 MB used, 8152.11 MB total
+[2017.03.28-21.48.29:585][  0]LogMemory: Virtual Memory: 369.64 MB used, 134217728.00 MB total
+[2017.03.28-21.48.29:622][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.28-21.48.30:478][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2017.03.28-21.48.30:478][  0]LogD3D11RHI: Adapter has 4059MB of dedicated video memory, 0MB of dedicated system memory, and 4076MB of shared system memory, 3 output[s]
+[2017.03.28-21.48.30:481][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2017.03.28-21.48.30:481][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4076MB of shared system memory, 0 output[s]
+[2017.03.28-21.48.30:482][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2017.03.28-21.48.30:489][  0]LogD3D11RHI: !Direct3DDevice
+[2017.03.28-21.48.30:489][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.28-21.48.30:927][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.28-21.48.30:962][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/6644/).
+[2017.03.28-21.48.30:962][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kazio/AppData/Local/Temp/UnrealShaderWorkingDir/C8C304424F4F6DA4D0C6E5A431118EB7/'.
+[2017.03.28-21.48.30:962][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.28-21.48.31:672][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.28-21.48.31:675][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.28-21.48.31:679][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.28-21.48.31:683][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.28-21.48.31:686][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.28-21.48.31:689][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.28-21.48.31:691][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.28-21.48.31:694][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.28-21.48.31:696][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.28-21.48.31:699][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.28-21.48.31:702][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.28-21.48.31:707][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.28-21.48.31:707][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.28-21.48.31:708][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.28-21.48.31:724][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.28-21.48.31:726][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.28-21.48.31:729][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.28-21.48.31:732][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.28-21.48.31:732][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.28-21.48.31:790][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.28-21.48.31:826][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Kazio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2017.03.28-21.48.31:826][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kazio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2017.03.28-21.48.31:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.28-21.48.31:826][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.28-21.48.31:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.28-21.48.31:826][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.28-21.48.31:875][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.28-21.48.31:888][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kazio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.28-21.48.32:063][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.28-21.48.32:065][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2017.03.28-21.48.32:166][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.28-21.48.32:166][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.28-21.48.32:370][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.28-21.48.33:284][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.28-21.48.33:390][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
+[2017.03.28-21.48.33:560][  0]SourceControl: Info Source control is disabled
+[2017.03.28-21.48.33:613][  0]SourceControl: Info Source control is disabled
+[2017.03.28-21.48.33:622][  0]SourceControl: Info Source control is disabled
+[2017.03.28-21.48.33:631][  0]SourceControl: Info Source control is disabled
+[2017.03.28-21.48.33:860][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2017.03.28-21.48.33:860][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2017.03.28-21.48.33:911][  0]LogEngine: Initializing Engine...
+[2017.03.28-21.48.33:916][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2017.03.28-21.48.33:920][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2017.03.28-21.48.34:028][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.03.28-21.48.34:041][  0]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-21.48.34:061][  0]LogInit: FAudioDevice initialized.
+[2017.03.28-21.48.34:084][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Kazio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2017.03.28-21.48.34:087][  0]LogInit: Texture streaming: Enabled
+[2017.03.28-21.48.34:091][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2017.03.28-21.48.34:091][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2017.03.28-21.48.34:091][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a75868e1489688dc40113ca52b944828|f1fc08d13eed490ba6bc059fed0a8bd1|2e6439c7-8f51-48e7-b8ba-5f95017eb72e
+[2017.03.28-21.48.34:091][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2017.03.28-21.48.34:100][  0]LogInit: Transaction tracking system initialized
+[2017.03.28-21.48.34:120][  0]BlueprintLog: New page: Editor Load
+[2017.03.28-21.48.34:501][  0]LocalizationService: Info Localization service is disabled
+[2017.03.28-21.48.34:639][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.03.28-21.48.34:640][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.03.28-21.48.34:640][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2017.03.28-21.48.34:773][  0]LogConsoleResponse:Display: 
+[2017.03.28-21.48.34:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kazio/Documents/Unreal Projects/MyProject/Content/' took 0.01s
+[2017.03.28-21.48.34:903][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2017.03.28-21.48.34:961][  0]SourceControl: Info Source control is disabled
+[2017.03.28-21.48.34:961][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.28-21.48.34:961][  0]LightingResults: New page: Lighting Build
+[2017.03.28-21.48.34:963][  0]MapCheck: New page: Map Check
+[2017.03.28-21.48.34:963][  0]LightingResults: New page: Lighting Build
+[2017.03.28-21.48.34:972][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1EBCB6AC0
+[2017.03.28-21.48.35:195][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.28-21.48.35:199][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.28-21.48.35:203][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.28-21.48.35:244][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.34ms to complete.
+[2017.03.28-21.48.35:244][  0]LogFileHelpers: Loading map 'Template_Default' took 0.283
+[2017.03.28-21.48.35:423][  0]LogCollectionManager: Loaded 0 collections in 0.000962 seconds
+[2017.03.28-21.48.35:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2017.03.28-21.48.35:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kazio/Documents/Unreal Projects/MyProject/Content/Developers/Kazio/Collections/' took 0.01s
+[2017.03.28-21.48.35:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kazio/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2017.03.28-21.48.35:495][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.28-21.48.35:504][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 1893 classes and 338 folders.
+[2017.03.28-21.48.35:514][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.03.28-21.48.35:660][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.03.28-21.48.35:677][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.28-21.48.35:858][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.28-21.48.35:875][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.28-21.48.35:900][  0]LogLoad: Full Startup: 6.72 seconds (BP compile: 0.03 seconds)
+[2017.03.28-21.48.35:909][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.28-21.48.35:916][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2017.03.28-21.48.35:968][  0]LogContentStreaming: Texture pool size now 200 MB
+[2017.03.28-21.48.36:107][  0]LogRenderer: Reallocating scene render targets to support 1168x684 (Frame:2).
+[2017.03.28-21.48.36:249][  3]LogAssetRegistry: Asset discovery search completed in 2.8701 seconds
+[2017.03.28-21.48.36:249][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.28-21.48.36:249][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.03.28-21.50.06:004][ 44]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Kazio/Documents/Fem_Bone_universal4animae.fbx)
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: NodeAttribute, ItemCount : 22
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: Model, ItemCount : 23
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: Deformer, ItemCount : 22
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: AnimationStack, ItemCount : 5
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: AnimationLayer, ItemCount : 5
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: AnimationCurveNode, ItemCount : 267
+[2017.03.28-21.50.06:066][ 44]LogFbx: ItemName: AnimationCurve, ItemCount : 801
+[2017.03.28-21.50.06:141][ 44]LogFbx: Loading FBX Scene from ../../../../../../Users/Kazio/Documents/Fem_Bone_universal4animae.fbx
+[2017.03.28-21.50.06:428][ 44]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.28-21.50.40:067][ 44]LogFbx: Loading FBX Scene from ../../../../../../Users/Kazio/Documents/Fem_Bone_universal4animae.fbx
+[2017.03.28-21.50.40:359][ 44]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.28-21.50.40:400][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:400][ 44]LogFbx: Dumping Node START [ogmesh] 
+[2017.03.28-21.50.40:400][ 44]LogFbx: 	Total Deformer Count -2049165112.
+[2017.03.28-21.50.40:400][ 44]LogFbx: 		[Node 1] og arm (Type Skin).
+[2017.03.28-21.50.40:400][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:400][ 44]LogFbx: 	Attribute (Circle) Type (4).
+[2017.03.28-21.50.40:400][ 44]LogFbx: 		[Node Attribute Child 1] ogmesh (Type Mesh).
+[2017.03.28-21.50.40:400][ 44]LogFbx: Dumping Node END [ogmesh]
+[2017.03.28-21.50.40:402][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:402][ 44]LogFbx: Dumping Node START [ogmesh] 
+[2017.03.28-21.50.40:402][ 44]LogFbx: 	Total Deformer Count -2049166904.
+[2017.03.28-21.50.40:402][ 44]LogFbx: 		[Node 1] og arm (Type Skin).
+[2017.03.28-21.50.40:402][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:402][ 44]LogFbx: 	Attribute (Circle) Type (4).
+[2017.03.28-21.50.40:402][ 44]LogFbx: 		[Node Attribute Child 1] ogmesh (Type Mesh).
+[2017.03.28-21.50.40:402][ 44]LogFbx: Dumping Node END [ogmesh]
+[2017.03.28-21.50.40:407][ 44]LogFbx: Valid bind pose for Pose (Circle) - ogmesh
+[2017.03.28-21.50.40:411][ 44]LogFbx: Triangulating skeletal mesh ogmesh
+[2017.03.28-21.50.40:581][ 44]LogFbx:Warning: Bones digested - 31  Depth of hierarchy - 9
+[2017.03.28-21.50.40:588][ 44]LogSkeletalMesh: Chunk 0: 108 rigid vertices, 316 soft vertices, 21 active bones
+[2017.03.28-21.50.40:588][ 44]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 802 triangles
+[2017.03.28-21.50.40:591][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_PhysicsAsset'
+[2017.03.28-21.50.40:591][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_PhysicsAsset'
+[2017.03.28-21.50.40:591][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Fem_Bone_universal4animae_PhysicsAsset.Fem_Bone_universal4animae_PhysicsAsset'
+[2017.03.28-21.50.40:598][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Skeleton'
+[2017.03.28-21.50.40:599][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Skeleton'
+[2017.03.28-21.50.40:599][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Fem_Bone_universal4animae_Skeleton.Fem_Bone_universal4animae_Skeleton'
+[2017.03.28-21.50.40:602][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:602][ 44]LogFbx: Dumping Node START [ogmesh] 
+[2017.03.28-21.50.40:602][ 44]LogFbx: 	Total Deformer Count -2049166344.
+[2017.03.28-21.50.40:602][ 44]LogFbx: 		[Node 1] og arm (Type Skin).
+[2017.03.28-21.50.40:602][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:602][ 44]LogFbx: 	Attribute (Circle) Type (4).
+[2017.03.28-21.50.40:602][ 44]LogFbx: 		[Node Attribute Child 1] ogmesh (Type Mesh).
+[2017.03.28-21.50.40:602][ 44]LogFbx: Dumping Node END [ogmesh]
+[2017.03.28-21.50.40:604][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:604][ 44]LogFbx: Dumping Node START [ogmesh] 
+[2017.03.28-21.50.40:604][ 44]LogFbx: 	Total Deformer Count -2049164160.
+[2017.03.28-21.50.40:604][ 44]LogFbx: 		[Node 1] og arm (Type Skin).
+[2017.03.28-21.50.40:604][ 44]LogFbx: =================================================
+[2017.03.28-21.50.40:604][ 44]LogFbx: 	Attribute (Circle) Type (4).
+[2017.03.28-21.50.40:604][ 44]LogFbx: 		[Node Attribute Child 1] ogmesh (Type Mesh).
+[2017.03.28-21.50.40:604][ 44]LogFbx: Dumping Node END [ogmesh]
+[2017.03.28-21.50.40:605][ 44]LogFbx: SortedLinks :(0) og arm
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(1) cntrl
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(2) crotchular
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(3) abdomin
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(4) chest
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(5) sholder_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(6) upperarm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(7) forearm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(8) forearm_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(9) sholder_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(10) upperarm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(11) forearm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(12) forearm_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(13) neck
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(14) neck_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(15) hip_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(16) thigh_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(17) leg_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(18) leg_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(19) hip_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(20) thigh_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(21) leg_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(22) leg_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(23) leg_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(24) leg_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(25) leg_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(26) leg_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(27) forearm_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(28) forearm_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(29) forearm_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(30) forearm_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(0) og arm
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(1) cntrl
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(2) crotchular
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(3) abdomin
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(4) chest
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(5) sholder_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(6) upperarm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(7) forearm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(8) forearm_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(9) sholder_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(10) upperarm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(11) forearm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(12) forearm_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(13) neck
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(14) neck_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(15) hip_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(16) thigh_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(17) leg_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(18) leg_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(19) hip_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(20) thigh_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(21) leg_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(22) leg_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(23) leg_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(24) leg_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(25) leg_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(26) leg_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(27) forearm_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(28) forearm_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(29) forearm_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(30) forearm_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(0) og arm
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(1) cntrl
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(2) crotchular
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(3) abdomin
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(4) chest
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(5) sholder_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(6) upperarm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(7) forearm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(8) forearm_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(9) sholder_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(10) upperarm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(11) forearm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(12) forearm_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(13) neck
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(14) neck_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(15) hip_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(16) thigh_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(17) leg_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(18) leg_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(19) hip_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(20) thigh_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(21) leg_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(22) leg_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(23) leg_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(24) leg_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(25) leg_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(26) leg_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(27) forearm_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(28) forearm_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(29) forearm_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(30) forearm_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(0) og arm
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(1) cntrl
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(2) crotchular
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(3) abdomin
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(4) chest
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(5) sholder_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(6) upperarm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(7) forearm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(8) forearm_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(9) sholder_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(10) upperarm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(11) forearm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(12) forearm_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(13) neck
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(14) neck_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(15) hip_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(16) thigh_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(17) leg_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(18) leg_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(19) hip_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(20) thigh_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(21) leg_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(22) leg_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(23) leg_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(24) leg_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(25) leg_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(26) leg_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(27) forearm_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(28) forearm_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(29) forearm_r_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(30) forearm_r_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(0) og arm
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(1) cntrl
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(2) crotchular
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(3) abdomin
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(4) chest
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(5) sholder_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(6) upperarm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(7) forearm_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(8) forearm_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(9) sholder_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(10) upperarm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(11) forearm_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(12) forearm_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(13) neck
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(14) neck_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(15) hip_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(16) thigh_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(17) leg_l
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(18) leg_l_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(19) hip_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(20) thigh_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(21) leg_r
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(22) leg_r_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(23) leg_l_001
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(24) leg_l_001_end
+[2017.03.28-21.50.40:606][ 44]LogFbx: SortedLinks :(25) leg_r_001
+[2017.03.28-21.50.40:607][ 44]LogFbx: SortedLinks :(26) leg_r_001_end
+[2017.03.28-21.50.40:607][ 44]LogFbx: SortedLinks :(27) forearm_l_001
+[2017.03.28-21.50.40:607][ 44]LogFbx: SortedLinks :(28) forearm_l_001_end
+[2017.03.28-21.50.40:607][ 44]LogFbx: SortedLinks :(29) forearm_r_001
+[2017.03.28-21.50.40:607][ 44]LogFbx: SortedLinks :(30) forearm_r_001_end
+[2017.03.28-21.50.40:616][ 44]LogFbx: Parsing AnimStack og arm|ogmeshAction
+[2017.03.28-21.50.40:627][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction'
+[2017.03.28-21.50.40:628][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction'
+[2017.03.28-21.50.40:628][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction.Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction'
+[2017.03.28-21.50.40:708][ 44]LogFbx: Parsing AnimStack og arm|run
+[2017.03.28-21.50.40:722][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_run'
+[2017.03.28-21.50.40:723][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_run'
+[2017.03.28-21.50.40:723][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Fem_Bone_universal4animae_Anim_og_arm_run.Fem_Bone_universal4animae_Anim_og_arm_run'
+[2017.03.28-21.50.41:496][ 44]LogFbx: Parsing AnimStack og arm|sneak
+[2017.03.28-21.50.41:512][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_sneak'
+[2017.03.28-21.50.41:512][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_sneak'
+[2017.03.28-21.50.41:512][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Fem_Bone_universal4animae_Anim_og_arm_sneak.Fem_Bone_universal4animae_Anim_og_arm_sneak'
+[2017.03.28-21.50.42:391][ 44]LogFbx: Parsing AnimStack og arm|WALK
+[2017.03.28-21.50.42:408][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_WALK'
+[2017.03.28-21.50.42:408][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_og_arm_WALK'
+[2017.03.28-21.50.42:408][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Fem_Bone_universal4animae_Anim_og_arm_WALK.Fem_Bone_universal4animae_Anim_og_arm_WALK'
+[2017.03.28-21.50.43:372][ 44]LogFbx: Parsing AnimStack ogmesh|ogmeshAction
+[2017.03.28-21.50.43:373][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction'
+[2017.03.28-21.50.43:373][ 44]LogLinker:Warning: Can't find file '/Game/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction'
+[2017.03.28-21.50.43:373][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction.Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction'
+[2017.03.28-21.50.43:499][ 44]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.28-21.50.43:499][ 44]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+forearm.l_end  
+forearm.r_end  
+neck_end  
+leg.l_end  
+leg.r_end  
+leg.l.001_end  
+leg.r.001_end  
+forearm.l.001_end  
+forearm.r.001_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.03.28-21.50.43:499][ 44]FBXImport:Warning: Warning Mesh 'ogmesh' has no UV set. Creating a default set. 
+[2017.03.28-21.51.04:893][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Fem_Bone_universal4animae" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset" SILENT=true
+[2017.03.28-21.51.04:916][586]LogSavePackage: Save=16.890018ms
+[2017.03.28-21.51.04:916][586]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae45107BCB4FA307390FCB609A2A7174A0.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset'
+[2017.03.28-21.51.04:922][586]LogSavePackage: Total save time: 26.148994ms
+[2017.03.28-21.51.04:922][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset
+[2017.03.28-21.51.07:536][877]LogSavePackage: Save=4.271331ms
+[2017.03.28-21.51.07:536][877]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_PhysicsAsset78FF78374BEE9293BB92348271E3A549.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae_PhysicsAsset.uasset'
+[2017.03.28-21.51.07:541][877]LogSavePackage: Total save time: 9.433150ms
+[2017.03.28-21.51.07:541][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae_PhysicsAsset.uasset
+[2017.03.28-21.51.07:622][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Fem_Bone_universal4animae" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset" SILENT=true
+[2017.03.28-21.51.07:632][877]LogSavePackage: Save=4.847583ms
+[2017.03.28-21.51.07:632][877]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae013C08DE42F178724418C0ACF49B1135.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset'
+[2017.03.28-21.51.07:634][877]LogSavePackage: Total save time: 10.250285ms
+[2017.03.28-21.51.07:634][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset
+[2017.03.28-21.51.09:644][102]LogSavePackage: Save=2.252486ms
+[2017.03.28-21.51.09:644][102]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Skeleton7A4876A64437F515C361798DF28AD496.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae_Skeleton.uasset'
+[2017.03.28-21.51.09:650][102]LogSavePackage: Total save time: 8.641973ms
+[2017.03.28-21.51.09:650][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae_Skeleton.uasset
+[2017.03.28-21.51.09:729][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Fem_Bone_universal4animae" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset" SILENT=true
+[2017.03.28-21.51.09:737][102]LogSavePackage: Save=4.466635ms
+[2017.03.28-21.51.09:737][102]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae453A1E534982A3141758259ED9755601.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset'
+[2017.03.28-21.51.09:739][102]LogSavePackage: Total save time: 8.242309ms
+[2017.03.28-21.51.09:739][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset
+[2017.03.28-21.51.20:080][324]LogSavePackage: Save=12.052095ms
+[2017.03.28-21.51.20:080][324]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_ogmeshActionA03E2752486F89E49831EEAC88A74F3A.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction.uasset'
+[2017.03.28-21.51.20:085][324]LogSavePackage: Total save time: 17.430048ms
+[2017.03.28-21.51.20:085][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction.uasset
+[2017.03.28-21.51.20:106][324]LogSavePackage: Save=5.273509ms
+[2017.03.28-21.51.20:106][324]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_run57D6B30B423E6B33155856BF2BC5D6B3.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_run.uasset'
+[2017.03.28-21.51.20:111][324]LogSavePackage: Total save time: 10.257535ms
+[2017.03.28-21.51.20:111][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_run.uasset
+[2017.03.28-21.51.20:129][324]LogSavePackage: Save=5.595292ms
+[2017.03.28-21.51.20:129][324]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_sneak4A3B37214D8B632036F511A04BBDB414.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_sneak.uasset'
+[2017.03.28-21.51.20:135][324]LogSavePackage: Total save time: 11.672352ms
+[2017.03.28-21.51.20:135][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_sneak.uasset
+[2017.03.28-21.51.20:155][324]LogSavePackage: Save=5.359841ms
+[2017.03.28-21.51.20:155][324]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_WALK7D7491E6491B4CF961B16A94196DFD30.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_WALK.uasset'
+[2017.03.28-21.51.20:159][324]LogSavePackage: Total save time: 10.384314ms
+[2017.03.28-21.51.20:160][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_og_arm_WALK.uasset
+[2017.03.28-21.51.20:182][324]LogSavePackage: Save=5.507451ms
+[2017.03.28-21.51.20:182][324]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshActionECC51B5B49C0EF104B1B4BB6DD324ADB.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction.uasset'
+[2017.03.28-21.51.20:186][324]LogSavePackage: Total save time: 10.436233ms
+[2017.03.28-21.51.20:186][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction.uasset
+[2017.03.28-22.02.00:937][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Char_parent" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset" SILENT=true
+[2017.03.28-22.02.00:950][710]LogSavePackage: Save=11.221676ms
+[2017.03.28-22.02.00:950][710]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Char_parentD0E926E9460F5DEDCD426E9368353325.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset'
+[2017.03.28-22.02.00:955][710]LogSavePackage: Total save time: 16.656682ms
+[2017.03.28-22.02.00:955][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset
+[2017.03.28-22.02.07:064][430]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.02.07:204][430]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.02.07:208][430]LogMaterial: 0.000423 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.02.08:286][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2017.03.28-22.02.08:286][497]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.02.08:286][497]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.02.47:109][ 71]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.02.47:113][ 71]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.02.47:115][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.03.28-22.02.48:160][144]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2017.03.28-22.02.48:160][144]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.02.48:160][144]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.03.39:374][796]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.03.39:377][796]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.03.39:405][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.03.28-22.03.40:316][864]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2017.03.28-22.03.40:316][864]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.03.40:316][864]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.03.49:829][922]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.03.49:832][922]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.03.50:464][969]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2017.03.28-22.03.50:464][969]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.03.50:464][969]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.03.54:139][390]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.03.54:150][390]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.03.54:775][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2017.03.28-22.03.54:775][437]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.03.54:775][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.04.21:548][228]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.04.21:551][228]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.04.22:658][320]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2017.03.28-22.04.22:658][320]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.04.22:658][320]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.04.27:854][908]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.04.27:857][908]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.04.27:887][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.03.28-22.04.28:525][955]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2017.03.28-22.04.28:525][955]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.04.28:525][955]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.04.36:411][845]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.04.36:416][845]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.04.36:418][845]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.04.36:421][845]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.04.36:448][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.03.28-22.04.37:089][890]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2017.03.28-22.04.37:089][890]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.04.37:089][890]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.04.46:166][884]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.04.46:169][884]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.04.46:834][935]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2017.03.28-22.04.46:834][935]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.04.46:834][935]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.05.33:779][ 64]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.05.33:782][ 64]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.05.34:612][129]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2017.03.28-22.05.34:612][129]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.05.34:612][129]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.05.42:774][ 59]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.05.42:777][ 59]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.05.43:426][111]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2017.03.28-22.05.43:426][111]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.05.43:426][111]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.05.46:443][460]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.05.46:453][460]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.05.47:086][508]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2017.03.28-22.05.47:086][508]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.05.47:086][508]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.05.58:913][643]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.05.58:917][643]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.05.58:944][643]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.03.28-22.05.59:673][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2017.03.28-22.05.59:673][691]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.05.59:673][691]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.06.07:225][505]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.06.07:228][505]LogMaterial: 0.000192 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.06.07:909][551]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2017.03.28-22.06.07:909][551]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.06.07:909][551]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.06.18:772][679]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.06.18:775][679]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.06.19:476][724]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2017.03.28-22.06.19:476][724]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.06.19:476][724]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.06.38:569][627]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.06.38:573][627]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.06.39:209][676]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2017.03.28-22.06.39:209][676]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.06.39:209][676]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.06.43:001][116]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.06.43:004][116]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.06.43:749][174]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2017.03.28-22.06.43:749][174]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.06.43:749][174]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.06.49:388][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_3, compiling. 
+[2017.03.28-22.07.07:460][735]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.07.07:464][735]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.07.08:208][791]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2017.03.28-22.07.08:208][791]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.07.08:208][791]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.28-22.07.15:777][549]LogMaterialEditor: Saving and Compiling material Char_Parent
+[2017.03.28-22.07.16:177][549]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.07.16:185][549]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.07.16:217][549]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.07.16:229][549]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.07.16:236][549]LogMaterial: 0.000481 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.28-22.07.18:025][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Char_parent" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset" SILENT=true
+[2017.03.28-22.07.18:043][549]LogSavePackage: Save=13.038878ms
+[2017.03.28-22.07.18:043][549]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Char_parentFE3208914B30A5A22A3F199326349B96.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset'
+[2017.03.28-22.07.18:049][549]LogSavePackage: Total save time: 22.433389ms
+[2017.03.28-22.07.18:049][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset
+[2017.03.28-22.07.18:054][549]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 79 instructions
+[2017.03.28-22.07.18:054][549]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.28-22.07.18:054][549]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.03.28-22.07.40:519][136]LogRenderer: Reallocating scene render targets to support 1392x920 (Frame:82341).
+[2017.03.28-22.08.10:900][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Char_Instance" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_Instance.uasset" SILENT=true
+[2017.03.28-22.08.10:913][715]LogSavePackage: Save=10.809636ms
+[2017.03.28-22.08.10:913][715]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Char_Instance407D226F4B1CEA813444789526C30092.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_Instance.uasset'
+[2017.03.28-22.08.10:918][715]LogSavePackage: Total save time: 15.953045ms
+[2017.03.28-22.08.10:918][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_Instance.uasset
+[2017.03.28-22.08.15:712][241]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.03.28-22.09.09:331][556]LogMaterial:Warning: Material /Game/Mesh/Char_parent.Char_Parent needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.28-22.09.09:334][556]LogMaterial: Missing cached shader map for material Char_Parent, compiling. 
+[2017.03.28-22.09.09:343][556]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2017.03.28-22.09.26:672][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Fem_Bone_universal4animae" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset" SILENT=true
+[2017.03.28-22.09.26:758][251]LogSavePackage: Save=26.583374ms
+[2017.03.28-22.09.26:758][251]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animaeC8B2235F4AED90AC8D145681A79EBC93.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset'
+[2017.03.28-22.09.26:764][251]LogSavePackage: Total save time: 90.085231ms
+[2017.03.28-22.09.26:764][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Fem_Bone_universal4animae.uasset
+[2017.03.28-22.09.28:329][415]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1A24E6C00
+[2017.03.28-22.09.28:349][415]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1E6DBE0C0
+[2017.03.28-22.09.28:356][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fem_Bone_universal4animae" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae.uasset" SILENT=true
+[2017.03.28-22.09.28:359][415]LogSavePackage: Save=1.753811ms
+[2017.03.28-22.09.28:359][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animaeAB817C8E4B26B8F9EAC2F0A9B2AFD503.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae.uasset'
+[2017.03.28-22.09.28:364][415]LogSavePackage: Total save time: 6.504796ms
+[2017.03.28-22.09.28:364][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae.uasset
+[2017.03.28-22.09.28:373][415]LogSavePackage: Save=1.753510ms
+[2017.03.28-22.09.28:373][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_PhysicsAsset0B084A704CD1848297AB0AAED07CFC8B.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_PhysicsAsset.uasset'
+[2017.03.28-22.09.28:378][415]LogSavePackage: Total save time: 6.304063ms
+[2017.03.28-22.09.28:378][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_PhysicsAsset.uasset
+[2017.03.28-22.09.28:387][415]LogSavePackage: Save=1.861274ms
+[2017.03.28-22.09.28:387][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_SkeletonF88540A948B6BDD7961D83AB55496740.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Skeleton.uasset'
+[2017.03.28-22.09.28:391][415]LogSavePackage: Total save time: 6.581470ms
+[2017.03.28-22.09.28:391][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Skeleton.uasset
+[2017.03.28-22.09.28:399][415]LogSavePackage: Save=1.852520ms
+[2017.03.28-22.09.28:399][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction81747E83415B8404E4332C8A473D4A28.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction.uasset'
+[2017.03.28-22.09.28:404][415]LogSavePackage: Total save time: 6.452877ms
+[2017.03.28-22.09.28:404][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_ogmeshAction.uasset
+[2017.03.28-22.09.28:411][415]LogSavePackage: Save=1.755924ms
+[2017.03.28-22.09.28:411][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_runD55142B5485309827B98D5876282140D.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_run.uasset'
+[2017.03.28-22.09.28:416][415]LogSavePackage: Total save time: 7.009812ms
+[2017.03.28-22.09.28:416][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_run.uasset
+[2017.03.28-22.09.28:424][415]LogSavePackage: Save=1.771017ms
+[2017.03.28-22.09.28:424][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_sneakC87FC5A0456C920FC2F44FB4E74F9D8A.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_sneak.uasset'
+[2017.03.28-22.09.28:428][415]LogSavePackage: Total save time: 6.199013ms
+[2017.03.28-22.09.28:428][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_sneak.uasset
+[2017.03.28-22.09.28:437][415]LogSavePackage: Save=1.763471ms
+[2017.03.28-22.09.28:437][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_og_arm_WALK5E54096841FDBF6D047949924DD0CB93.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_WALK.uasset'
+[2017.03.28-22.09.28:441][415]LogSavePackage: Total save time: 6.256670ms
+[2017.03.28-22.09.28:441][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_og_arm_WALK.uasset
+[2017.03.28-22.09.28:449][415]LogSavePackage: Save=1.924061ms
+[2017.03.28-22.09.28:449][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshActionFD4C6AAC4351B50B144D0FAF1EE509BE.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction.uasset'
+[2017.03.28-22.09.28:454][415]LogSavePackage: Total save time: 7.193945ms
+[2017.03.28-22.09.28:454][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Fem_Bone_universal4animae_Anim_ogmesh_ogmeshAction.uasset
+[2017.03.28-22.09.28:458][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Char_parent" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset" SILENT=true
+[2017.03.28-22.09.28:465][415]LogSavePackage: Save=3.612368ms
+[2017.03.28-22.09.28:465][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Char_parent7DA0704146B908704E3E2EA19A55CC45.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset'
+[2017.03.28-22.09.28:470][415]LogSavePackage: Total save time: 10.195654ms
+[2017.03.28-22.09.28:470][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_parent.uasset
+[2017.03.28-22.09.28:473][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/Char_Instance" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_Instance.uasset" SILENT=true
+[2017.03.28-22.09.28:481][415]LogSavePackage: Save=2.650942ms
+[2017.03.28-22.09.28:481][415]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Char_InstanceDF5463C94C240566FF2F73A8BF4B007C.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_Instance.uasset'
+[2017.03.28-22.09.28:486][415]LogSavePackage: Total save time: 11.017617ms
+[2017.03.28-22.09.28:486][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Mesh/Char_Instance.uasset
+[2017.03.28-22.10.17:881][ 16]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.03.28-22.10.22:639][393]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.28-22.12.41:656][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1A23F3F60
+[2017.03.28-22.12.41:656][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1A23F2660
+[2017.03.28-22.12.41:681][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.046
+[2017.03.28-22.12.41:686][382]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/Idle_walk_run] ([1] browsable assets)...
+[2017.03.28-22.12.41:698][382]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Anims/Idle_walk_run.Idle_walk_run]
+[2017.03.28-22.12.41:698][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/Idle_walk_run]
+[2017.03.28-22.12.41:711][382]LogSavePackage: Save=10.515623ms
+[2017.03.28-22.12.41:711][382]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Idle_walk_run_Auto184F295704AE6D89389627781FDA8CDD7.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/Idle_walk_run_Auto1.uasset'
+[2017.03.28-22.12.41:713][382]LogSavePackage: Total save time: 12.724642ms
+[2017.03.28-22.12.41:713][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/Idle_walk_run_Auto1.uasset
+[2017.03.28-22.12.41:713][382]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.03.28-22.16.09:949][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Idle_walk_run" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Idle_walk_run.uasset" SILENT=true
+[2017.03.28-22.16.09:963][346]LogSavePackage: Save=11.763818ms
+[2017.03.28-22.16.09:963][346]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Idle_walk_run59FB20AE4451D744A6B492A92A92C032.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Idle_walk_run.uasset'
+[2017.03.28-22.16.09:969][346]LogSavePackage: Total save time: 17.888274ms
+[2017.03.28-22.16.09:969][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Idle_walk_run.uasset
+[2017.03.28-22.16.10:765][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Idle_walk_run" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Idle_walk_run.uasset" SILENT=true
+[2017.03.28-22.16.10:773][414]LogSavePackage: Save=2.592381ms
+[2017.03.28-22.16.10:773][414]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Idle_walk_run859C25F84E50F6A17A7A5BAB9AC9B7D4.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Idle_walk_run.uasset'
+[2017.03.28-22.16.10:775][414]LogSavePackage: Total save time: 8.058477ms
+[2017.03.28-22.16.10:775][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/Idle_walk_run.uasset
+[2017.03.28-22.17.13:708][384]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.28-22.17.14:134][384]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 107 classes and 0 folders.
+[2017.03.28-22.17.14:594][384]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.03.28-22.17.22:260][ 51]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.28-22.18.04:027][103]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.28-22.18.47:363][318]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.28-22.18.48:624][427]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.28-22.18.56:801][257]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.28-22.24.59:824][ 84]BlueprintLog: New page: Compile CharctarAnimBP
+[2017.03.28-22.25.00:261][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1B2643060
+[2017.03.28-22.25.00:261][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1ACE753A0
+[2017.03.28-22.25.00:267][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1ACE77EC0
+[2017.03.28-22.25.00:268][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D2194123E0
+[2017.03.28-22.25.00:269][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D219927600
+[2017.03.28-22.25.00:270][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D21F0551C0
+[2017.03.28-22.25.00:270][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D22ABFC540
+[2017.03.28-22.25.00:271][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D22ABFF1A0
+[2017.03.28-22.25.00:302][ 84]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.25.00:302][ 84]BlueprintEditorCompileResults: Info [2191.12] Compile of CharctarAnimBP successful! [in 477 ms]
+[2017.03.28-22.25.11:633][169]BlueprintLog: New page: Compile CharctarAnimBP
+[2017.03.28-22.25.11:718][169]BlueprintEditorCompileResults: Info [2202.54] Compile of CharctarAnimBP successful! [in 84 ms]
+[2017.03.28-22.34.34:101][181]BlueprintLog: New page: Compile CharctarAnimBP
+[2017.03.28-22.34.34:119][181]LogBlueprint:Warning: [compiler CharctarAnimBP] Warning  JumpEnd to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition 
+[2017.03.28-22.34.34:322][181]LogBlueprint:Warning: [compiler CharctarAnimBP] Warning [2765.14] Compile of CharctarAnimBP successful, but with 1 Warning(s) [in 221 ms]
+[2017.03.28-22.34.34:322][181]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.34.34:322][181]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.34.34:322][181]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.34.34:322][181]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition 
+[2017.03.28-22.34.34:323][181]BlueprintEditorCompileResults:Warning: Warning [2765.14] Compile of CharctarAnimBP successful, but with 1 Warning(s) [in 221 ms]
+[2017.03.28-22.34.36:955][426]BlueprintLog: New page: Compile CharctarAnimBP
+[2017.03.28-22.34.36:973][426]LogBlueprint:Warning: [compiler CharctarAnimBP] Warning  JumpEnd to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition 
+[2017.03.28-22.34.37:047][426]LogBlueprint:Warning: [compiler CharctarAnimBP] Warning [2767.87] Compile of CharctarAnimBP successful, but with 1 Warning(s) [in 92 ms]
+[2017.03.28-22.34.37:047][426]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.34.37:047][426]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.34.37:047][426]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.34.37:047][426]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition 
+[2017.03.28-22.34.37:047][426]BlueprintEditorCompileResults:Warning: Warning [2767.87] Compile of CharctarAnimBP successful, but with 1 Warning(s) [in 92 ms]
+[2017.03.28-22.35.08:910][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.026
+[2017.03.28-22.35.08:918][819]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/CharctarAnimBP] ([1] browsable assets)...
+[2017.03.28-22.35.08:929][819]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Anims/CharctarAnimBP.CharctarAnimBP]
+[2017.03.28-22.35.08:929][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/CharctarAnimBP]
+[2017.03.28-22.35.08:983][819]LogSavePackage: Save=51.679176ms
+[2017.03.28-22.35.08:983][819]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/CharctarAnimBP_Auto24E9B5B124C49135AFFCF5C84D0BEC453.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/CharctarAnimBP_Auto2.uasset'
+[2017.03.28-22.35.08:986][819]LogSavePackage: Total save time: 54.603603ms
+[2017.03.28-22.35.08:986][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/CharctarAnimBP_Auto2.uasset
+[2017.03.28-22.35.08:986][819]LogFileHelpers: Auto-saving content packages took 0.075
+[2017.03.28-22.36.09:777][ 45]BlueprintLog: New page: Compile CharctarAnimBP
+[2017.03.28-22.36.09:882][ 45]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.36.09:882][ 45]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.36.09:882][ 45]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.36.09:882][ 45]BlueprintEditorCompileResults: Info [2860.70] Compile of CharctarAnimBP successful! [in 104 ms]
+[2017.03.28-22.38.07:363][511]BlueprintLog: New page: Compile CharctarAnimBP
+[2017.03.28-22.38.07:462][511]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.38.07:462][511]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.38.07:462][511]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.28-22.38.07:462][511]BlueprintEditorCompileResults: Info [2978.28] Compile of CharctarAnimBP successful! [in 99 ms]
+[2017.03.28-22.47.02:809][595]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-22.47.05:087][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2017.03.28-22.47.07:092][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2017.03.28-22.47.10:765][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2017.03.28-22.47.28:868][902]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.28-22.47.36:417][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2017.03.28-22.48.11:572][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2017.03.28-22.48.11:625][867]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.053
+[2017.03.28-22.48.11:632][867]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/CharctarAnimBP] ([1] browsable assets)...
+[2017.03.28-22.48.11:644][867]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Anims/CharctarAnimBP.CharctarAnimBP]
+[2017.03.28-22.48.11:644][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/CharctarAnimBP]
+[2017.03.28-22.48.11:708][867]LogSavePackage: Save=61.777023ms
+[2017.03.28-22.48.11:708][867]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/CharctarAnimBP_Auto327A5E502402EA30112A84E88ED36AEC4.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/CharctarAnimBP_Auto3.uasset'
+[2017.03.28-22.48.11:711][867]LogSavePackage: Total save time: 64.860836ms
+[2017.03.28-22.48.11:711][867]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/CharctarAnimBP_Auto3.uasset
+[2017.03.28-22.48.11:716][867]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/FemChar] ([1] browsable assets)...
+[2017.03.28-22.48.11:727][867]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Anims/FemChar.FemChar]
+[2017.03.28-22.48.11:727][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/FemChar]
+[2017.03.28-22.48.11:727][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/FemChar" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/FemChar_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.03.28-22.48.11:756][867]LogSavePackage: Save=26.311699ms
+[2017.03.28-22.48.11:756][867]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/FemChar_Auto3C588313A437145CD0FF831A3C253F3A1.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/FemChar_Auto3.uasset'
+[2017.03.28-22.48.11:758][867]LogSavePackage: Total save time: 28.915547ms
+[2017.03.28-22.48.11:758][867]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/FemChar_Auto3.uasset
+[2017.03.28-22.48.11:758][867]LogFileHelpers: Auto-saving content packages took 0.133
+[2017.03.28-22.48.39:565][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-22.48.45:497][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2017.03.28-22.49.31:245][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2017.03.28-22.49.40:986][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2017.03.28-22.49.41:987][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2017.03.28-22.49.43:612][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2017.03.28-22.49.53:784][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2017.03.28-22.51.23:956][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2017.03.28-22.51.41:396][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2017.03.28-22.53.38:197][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2017.03.28-22.53.42:768][175]BlueprintLog: New page: Compile FemChar
+[2017.03.28-22.53.42:843][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2017.03.28-22.53.42:875][175]BlueprintEditorCompileResults: Info [3913.70] Compile of FemChar successful! [in 106 ms]
+[2017.03.28-22.54.14:424][405]BlueprintLog: New page: Compile FemChar
+[2017.03.28-22.54.14:493][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-22.54.14:524][405]BlueprintEditorCompileResults: Info [3945.34] Compile of FemChar successful! [in 99 ms]
+[2017.03.28-22.55.46:539][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-22.58.40:555][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2017.03.28-22.59.38:279][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2017.03.28-23.00.28:366][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2017.03.28-23.01.10:921][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2017.03.28-23.01.37:513][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2017.03.28-23.02.33:926][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2017.03.28-23.03.23:638][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2017.03.28-23.03.23:669][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1B2642A20
+[2017.03.28-23.03.23:673][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1B26413A0
+[2017.03.28-23.03.23:678][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D21F097560
+[2017.03.28-23.03.23:684][254]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.046
+[2017.03.28-23.03.23:691][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/FemChar] ([1] browsable assets)...
+[2017.03.28-23.03.23:703][254]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Anims/FemChar.FemChar]
+[2017.03.28-23.03.23:703][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/FemChar]
+[2017.03.28-23.03.23:703][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/FemChar" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/FemChar_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.03.28-23.03.23:757][254]LogSavePackage: Save=51.879009ms
+[2017.03.28-23.03.23:757][254]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/FemChar_Auto45192A2D4472E9F0A5C51DC8D84858C03.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/FemChar_Auto4.uasset'
+[2017.03.28-23.03.23:760][254]LogSavePackage: Total save time: 55.116165ms
+[2017.03.28-23.03.23:760][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/FemChar_Auto4.uasset
+[2017.03.28-23.03.23:760][254]LogFileHelpers: Auto-saving content packages took 0.075
+[2017.03.28-23.03.58:935][429]BlueprintLog: New page: Compile FemChar
+[2017.03.28-23.03.59:005][429]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-23.03.59:034][429]BlueprintEditorCompileResults: Info [4529.86] Compile of FemChar successful! [in 98 ms]
+[2017.03.28-23.03.59:783][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/FemChar" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/FemChar.uasset" SILENT=true
+[2017.03.28-23.03.59:840][501]LogSavePackage: Save=54.897617ms
+[2017.03.28-23.03.59:840][501]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/FemCharD574DB064E5F59A5F563F6A9BB9E49B1.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/FemChar.uasset'
+[2017.03.28-23.03.59:845][501]LogSavePackage: Total save time: 59.819758ms
+[2017.03.28-23.03.59:845][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/FemChar.uasset
+[2017.03.28-23.04.55:949][795]LogActor:Warning: GameNetworkManager /Engine/Transient.World_24:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.28-23.05.45:073][ 75]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.28-23.05.52:656][948]BlueprintLog: New page: Compile MyGame
+[2017.03.28-23.05.52:717][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-23.05.52:773][948]BlueprintEditorCompileResults: Info [4643.59] Compile of MyGame successful! [in 117 ms]
+[2017.03.28-23.05.53:462][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/MyGame" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/MyGame.uasset" SILENT=true
+[2017.03.28-23.05.53:475][ 21]LogSavePackage: Save=11.007053ms
+[2017.03.28-23.05.53:475][ 21]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/MyGame3626A50040BEE9B54E7B60991C27DC1B.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/MyGame.uasset'
+[2017.03.28-23.05.53:480][ 21]LogSavePackage: Total save time: 15.972059ms
+[2017.03.28-23.05.53:480][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/MyGame.uasset
+[2017.03.28-23.06.12:252][643]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.28-23.06.15:412][ 18]Cmd: UpdateLandscapeSetup
+[2017.03.28-23.06.22:764][891]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.28-23.06.22:766][891]LogPlayLevel: [PlayLevel] Compiling CharctarAnimBP before play...
+[2017.03.28-23.06.22:851][891]LogPlayLevel: PlayLevel: Blueprint regeneration took 86 ms (1 blueprints)
+[2017.03.28-23.06.22:881][891]PIE: New page: PIE session: Untitled_1 (Mar 28, 2017, 9:06:22 AM)
+[2017.03.28-23.06.22:881][891]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.03.28-23.06.22:884][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003362s)
+[2017.03.28-23.06.22:885][891]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.28-23.06.22:885][891]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.03.28-23.06.22:886][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004810s)
+[2017.03.28-23.06.22:923][891]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-23.06.22:931][891]LogInit: FAudioDevice initialized.
+[2017.03.28-23.06.22:991][891]LogWorld: Game class is 'MyGame_C'
+[2017.03.28-23.06.22:993][891]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.03.28-16.06.22
+[2017.03.28-23.06.22:993][891]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.28-23.06.22:993][891]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.28-23.06.22:995][891]LogWorld: Bringing up level for play took: 0.002676
+[2017.03.28-23.06.23:023][891]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.023
+[2017.03.28-23.06.34:125][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D211E68EA0
+[2017.03.28-23.13.36:155][106]LogSavePackage: Save=26.132393ms
+[2017.03.28-23.13.36:155][106]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Untitled_1_Auto50431B0564D512708CA85C5BF262AE3CF.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Temp/Untitled_1_Auto5.umap'
+[2017.03.28-23.13.36:157][106]LogSavePackage: Total save time: 28.286472ms
+[2017.03.28-23.13.36:157][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Temp/Untitled_1_Auto5.umap
+[2017.03.28-23.13.36:160][106]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.076
+[2017.03.28-23.13.36:160][106]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
+[2017.03.28-23.13.36:167][106]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/CharctarAnimBP] ([1] browsable assets)...
+[2017.03.28-23.13.36:179][106]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Anims/CharctarAnimBP.CharctarAnimBP]
+[2017.03.28-23.13.36:179][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/CharctarAnimBP]
+[2017.03.28-23.13.36:246][106]LogSavePackage: Save=63.807339ms
+[2017.03.28-23.13.36:246][106]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/CharctarAnimBP_Auto51B0381F1418DD3904EC348A6EB24F094.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/CharctarAnimBP_Auto5.uasset'
+[2017.03.28-23.13.36:248][106]LogSavePackage: Total save time: 66.501450ms
+[2017.03.28-23.13.36:248][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Anims/CharctarAnimBP_Auto5.uasset
+[2017.03.28-23.13.36:248][106]LogFileHelpers: Auto-saving content packages took 0.087
+[2017.03.28-23.18.59:430][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-23.18.59:430][587]PIE: New page: PIE session: Untitled_1 (Mar 28, 2017, 9:18:59 AM)
+[2017.03.28-23.18.59:430][587]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.03.28-23.18.59:432][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001695s)
+[2017.03.28-23.18.59:433][587]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.28-23.18.59:433][587]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2017.03.28-23.18.59:433][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002771s)
+[2017.03.28-23.18.59:433][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-23.18.59:472][587]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-23.18.59:480][587]LogInit: FAudioDevice initialized.
+[2017.03.28-23.18.59:525][587]LogWorld: Game class is 'MyGame_C'
+[2017.03.28-23.18.59:528][587]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.03.28-16.18.59
+[2017.03.28-23.18.59:528][587]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.28-23.18.59:528][587]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.28-23.18.59:528][587]LogWorld: Bringing up level for play took: 0.001849
+[2017.03.28-23.18.59:531][587]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.485
+[2017.03.28-23.19.18:897][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D25DDA77E0
+[2017.03.28-23.20.35:663][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.28-23.20.48:496][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DeFaultY" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/DeFaultY.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.28-23.20.48:550][670]LogSavePackage: Save=23.225172ms
+[2017.03.28-23.20.48:550][670]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/DeFaultY62B74E0A4CE94E4D30D6838454EF7D9E.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/DeFaultY.umap'
+[2017.03.28-23.20.48:556][670]LogSavePackage: Total save time: 30.097034ms
+[2017.03.28-23.20.48:556][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/DeFaultY.umap
+[2017.03.28-23.20.48:586][670]LogFileHelpers: Saving map 'DeFaultY' took 0.522
+[2017.03.28-23.20.48:605][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/CharctarAnimBP" FILE="../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/CharctarAnimBP.uasset" SILENT=true
+[2017.03.28-23.20.48:671][670]LogSavePackage: Save=63.508499ms
+[2017.03.28-23.20.48:671][670]LogSavePackage: Moving '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Saved/CharctarAnimBP0AD94E094480F0B5712B1882AADE1FEA.tmp' to '../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/CharctarAnimBP.uasset'
+[2017.03.28-23.20.48:676][670]LogSavePackage: Total save time: 68.637114ms
+[2017.03.28-23.20.48:676][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kazio/Documents/Unreal Projects/MyProject/Content/Anims/CharctarAnimBP.uasset
+[2017.03.29-03.15.25:697][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-03.15.25:748][695]PIE: New page: PIE session: DeFaultY (Mar 28, 2017, 1:15:25 PM)
+[2017.03.29-03.15.25:764][695]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DeFaultY
+[2017.03.29-03.15.26:113][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.329011s)
+[2017.03.29-03.15.26:255][695]LogAIModule: Creating AISystem for world DeFaultY
+[2017.03.29-03.15.26:301][695]LogPlayLevel: PIE: World Init took: (0.187623s)
+[2017.03.29-03.15.26:306][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DeFaultY.DeFaultY to /Game/UEDPIE_0_DeFaultY.DeFaultY (0.542160s)
+[2017.03.29-03.15.26:320][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.29-03.15.28:837][695]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D219413060
+[2017.03.29-03.15.31:023][695]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.29-03.15.31:038][695]LogInit: FAudioDevice initialized.
+[2017.03.29-03.15.31:103][695]LogWorld: Game class is 'MyGame_C'
+[2017.03.29-03.15.31:107][695]LogWorld: Bringing World /Game/UEDPIE_0_DeFaultY.DeFaultY up for play (max tick rate 0) at 2017.03.28-20.15.31
+[2017.03.29-03.15.31:107][695]LogActor:Warning: GameSession /Game/UEDPIE_0_DeFaultY.DeFaultY:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.29-03.15.31:113][695]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_DeFaultY.DeFaultY:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.29-03.15.31:114][695]LogWorld: Bringing up level for play took: 0.009884
+[2017.03.29-03.15.31:119][695]PIE: Info Play in editor start time for /Game/UEDPIE_0_DeFaultY 6.073
+[2017.03.29-03.16.00:363][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1BF43FC40
+[2017.03.29-03.17.58:248][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-03.17.58:248][146]PIE: New page: PIE session: DeFaultY (Mar 28, 2017, 1:17:58 PM)
+[2017.03.29-03.17.58:248][146]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DeFaultY
+[2017.03.29-03.17.58:250][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001945s)
+[2017.03.29-03.17.58:270][146]LogAIModule: Creating AISystem for world DeFaultY
+[2017.03.29-03.17.58:270][146]LogPlayLevel: PIE: World Init took: (0.019351s)
+[2017.03.29-03.17.58:270][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DeFaultY.DeFaultY to /Game/UEDPIE_0_DeFaultY.DeFaultY (0.021533s)
+[2017.03.29-03.17.58:318][146]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.29-03.17.58:336][146]LogInit: FAudioDevice initialized.
+[2017.03.29-03.17.58:371][146]LogWorld: Game class is 'MyGame_C'
+[2017.03.29-03.17.58:373][146]LogWorld: Bringing World /Game/UEDPIE_0_DeFaultY.DeFaultY up for play (max tick rate 0) at 2017.03.28-20.17.58
+[2017.03.29-03.17.58:373][146]LogActor:Warning: GameSession /Game/UEDPIE_0_DeFaultY.DeFaultY:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.29-03.17.58:373][146]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_DeFaultY.DeFaultY:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.03.29-03.17.58:374][146]LogWorld: Bringing up level for play took: 0.001888
+[2017.03.29-03.17.58:384][146]PIE: Info Play in editor start time for /Game/UEDPIE_0_DeFaultY -0.661
+[2017.03.29-03.18.44:593][617]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D276C8F1A0
+[2017.03.29-03.37.47:700][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2017.03.29-03.37.49:568][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.29-03.37.50:781][819]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.29-03.37.52:470][820]Cmd: QUIT_EDITOR
+[2017.03.29-03.37.55:470][820]LogExit: Preparing to exit.
+[2017.03.29-03.37.58:045][820]LogExit: Editor shut down
+[2017.03.29-03.37.58:053][820]LogExit: Transaction tracking system shut down
+[2017.03.29-03.37.58:248][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1E01EC680
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1F35F2AC0
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1984E7380
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1E6DBE840
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1E6DBE980
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D2461AC9A0
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1A5DC7A60
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D1ACE74FE0
+[2017.03.29-03.37.58:318][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D25DB99A80
+[2017.03.29-03.37.58:411][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D28176E7A0
+[2017.03.29-03.38.04:279][820]LogExit: Object subsystem successfully closed.
+[2017.03.29-03.38.04:525][820]LogD3D11RHI: Shutdown
+[2017.03.29-03.38.04:525][820]LogD3D11RHI: CleanupD3DDevice
+[2017.03.29-03.38.05:763][820]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.29-03.38.05:930][820]LogModuleManager: Shutting down and abandoning module BlueprintGraph (202)
+[2017.03.29-03.38.05:930][820]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2017.03.29-03.38.05:931][820]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
+[2017.03.29-03.38.05:932][820]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2017.03.29-03.38.05:932][820]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2017.03.29-03.38.05:933][820]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2017.03.29-03.38.05:933][820]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2017.03.29-03.38.05:933][820]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2017.03.29-03.38.05:933][820]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2017.03.29-03.38.06:119][820]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2017.03.29-03.38.06:120][820]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2017.03.29-03.38.06:121][820]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2017.03.29-03.38.06:123][820]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2017.03.29-03.38.06:123][820]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2017.03.29-03.38.06:126][820]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2017.03.29-03.38.06:126][820]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2017.03.29-03.38.06:126][820]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2017.03.29-03.38.06:126][820]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2017.03.29-03.38.06:126][820]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2017.03.29-03.38.06:127][820]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2017.03.29-03.38.06:128][820]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2017.03.29-03.38.06:128][820]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2017.03.29-03.38.06:129][820]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2017.03.29-03.38.06:129][820]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2017.03.29-03.38.06:133][820]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2017.03.29-03.38.06:135][820]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2017.03.29-03.38.06:166][820]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2017.03.29-03.38.06:167][820]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2017.03.29-03.38.06:168][820]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2017.03.29-03.38.06:168][820]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2017.03.29-03.38.06:271][820]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2017.03.29-03.38.06:272][820]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2017.03.29-03.38.06:272][820]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2017.03.29-03.38.06:272][820]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2017.03.29-03.38.06:273][820]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2017.03.29-03.38.06:274][820]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2017.03.29-03.38.06:276][820]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2017.03.29-03.38.06:276][820]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2017.03.29-03.38.06:277][820]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2017.03.29-03.38.06:279][820]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2017.03.29-03.38.06:279][820]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2017.03.29-03.38.06:280][820]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2017.03.29-03.38.06:281][820]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2017.03.29-03.38.06:282][820]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2017.03.29-03.38.06:282][820]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2017.03.29-03.38.06:282][820]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2017.03.29-03.38.06:282][820]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2017.03.29-03.38.06:284][820]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2017.03.29-03.38.06:285][820]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2017.03.29-03.38.06:287][820]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2017.03.29-03.38.06:287][820]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2017.03.29-03.38.06:293][820]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2017.03.29-03.38.06:294][820]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2017.03.29-03.38.06:295][820]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2017.03.29-03.38.06:296][820]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2017.03.29-03.38.06:296][820]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2017.03.29-03.38.06:318][820]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2017.03.29-03.38.06:319][820]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2017.03.29-03.38.06:320][820]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2017.03.29-03.38.06:322][820]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2017.03.29-03.38.06:322][820]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2017.03.29-03.38.06:325][820]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2017.03.29-03.38.06:326][820]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2017.03.29-03.38.06:329][820]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2017.03.29-03.38.06:336][820]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2017.03.29-03.38.06:336][820]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2017.03.29-03.38.06:380][820]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2017.03.29-03.38.06:380][820]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2017.03.29-03.38.06:381][820]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2017.03.29-03.38.06:384][820]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2017.03.29-03.38.06:385][820]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2017.03.29-03.38.06:386][820]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2017.03.29-03.38.06:646][820]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2017.03.29-03.38.06:652][820]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2017.03.29-03.38.06:653][820]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2017.03.29-03.38.06:653][820]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2017.03.29-03.38.06:653][820]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2017.03.29-03.38.06:654][820]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2017.03.29-03.38.06:654][820]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2017.03.29-03.38.06:654][820]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2017.03.29-03.38.06:857][820]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2017.03.29-03.38.06:861][820]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2017.03.29-03.38.06:861][820]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2017.03.29-03.38.06:861][820]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2017.03.29-03.38.06:862][820]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2017.03.29-03.38.06:862][820]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2017.03.29-03.38.06:862][820]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2017.03.29-03.38.06:862][820]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2017.03.29-03.38.06:915][820]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2017.03.29-03.38.06:916][820]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2017.03.29-03.38.06:916][820]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2017.03.29-03.38.06:916][820]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2017.03.29-03.38.06:919][820]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2017.03.29-03.38.06:922][820]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2017.03.29-03.38.06:922][820]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2017.03.29-03.38.06:922][820]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2017.03.29-03.38.06:924][820]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2017.03.29-03.38.06:936][820]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2017.03.29-03.38.06:937][820]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2017.03.29-03.38.06:938][820]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2017.03.29-03.38.06:938][820]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2017.03.29-03.38.06:940][820]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2017.03.29-03.38.06:943][820]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2017.03.29-03.38.06:971][820]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2017.03.29-03.38.06:974][820]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2017.03.29-03.38.06:974][820]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2017.03.29-03.38.06:974][820]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2017.03.29-03.38.06:975][820]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2017.03.29-03.38.06:975][820]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2017.03.29-03.38.06:976][820]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2017.03.29-03.38.06:978][820]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2017.03.29-03.38.06:978][820]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2017.03.29-03.38.07:020][820]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2017.03.29-03.38.07:041][820]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2017.03.29-03.38.07:338][820]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2017.03.29-03.38.07:340][820]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2017.03.29-03.38.07:342][820]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2017.03.29-03.38.07:443][820]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2017.03.29-03.38.07:443][820]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2017.03.29-03.38.07:444][820]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2017.03.29-03.38.07:452][820]LogModuleManager: Shutting down and abandoning module Media (82)
+[2017.03.29-03.38.07:452][820]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2017.03.29-03.38.07:454][820]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2017.03.29-03.38.07:454][820]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2017.03.29-03.38.07:454][820]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2017.03.29-03.38.07:457][820]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2017.03.29-03.38.07:458][820]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2017.03.29-03.38.07:459][820]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2017.03.29-03.38.07:462][820]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2017.03.29-03.38.07:464][820]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2017.03.29-03.38.07:464][820]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2017.03.29-03.38.07:466][820]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2017.03.29-03.38.07:469][820]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2017.03.29-03.38.07:471][820]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2017.03.29-03.38.07:473][820]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2017.03.29-03.38.07:473][820]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2017.03.29-03.38.07:501][820]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2017.03.29-03.38.07:501][820]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2017.03.29-03.38.07:502][820]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2017.03.29-03.38.07:502][820]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2017.03.29-03.38.07:502][820]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2017.03.29-03.38.07:502][820]LogModuleManager: Shutting down and abandoning module Core (60)
+[2017.03.29-03.38.07:502][820]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2017.03.29-03.38.07:502][820]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2017.03.29-03.38.07:503][820]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2017.03.29-03.38.07:504][820]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2017.03.29-03.38.07:558][820]LogDerivedDataCache: Shutdown
+[2017.03.29-03.38.07:558][820]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2017.03.29-03.38.07:559][820]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2017.03.29-03.38.07:560][820]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2017.03.29-03.38.07:561][820]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2017.03.29-03.38.07:561][820]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2017.03.29-03.38.07:561][820]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2017.03.29-03.38.07:562][820]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2017.03.29-03.38.07:562][820]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2017.03.29-03.38.07:562][820]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2017.03.29-03.38.07:562][820]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2017.03.29-03.38.07:562][820]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2017.03.29-03.38.07:562][820]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2017.03.29-03.38.07:562][820]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2017.03.29-03.38.07:563][820]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2017.03.29-03.38.07:572][820]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2017.03.29-03.38.07:573][820]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.29-03.38.07:574][820]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.29-03.38.07:575][820]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.29-03.38.07:575][820]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.29-03.38.07:575][820]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.03.29-03.38.07:575][820]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.03.29-03.38.07:576][820]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.03.29-03.38.07:576][820]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.03.29-03.38.07:584][820]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.03.29-03.38.07:585][820]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.03.29-03.38.09:587][820]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.03.29-03.38.09:596][820]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.03.29-03.38.09:597][820]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.03.29-03.38.09:597][820]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.29-03.38.09:598][820]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.29-03.38.09:598][820]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.29-03.38.09:599][820]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.29-03.38.10:296][820]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.29-03.38.10:296][820]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.29-03.38.10:296][820]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.29-03.38.10:296][820]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.29-03.38.10:296][820]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.29-03.38.10:296][820]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.29-03.38.10:296][820]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.29-03.38.10:297][820]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.29-03.38.10:298][820]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.29-03.38.10:298][820]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.29-03.38.10:302][820]LogExit: Exiting.
+[2017.03.29-03.38.10:411][820]Log file closed, 03/28/17 20:38:10
